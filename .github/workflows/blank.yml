@@ -17,5 +17,5 @@ jobs:
           echo "Disk:"
           df -h
 
-      - name: Start SSH session
-        uses: lhotari/action-upterm@v1
+      - name: SSH
+        uses: owenthereal/action-upterm@v2
