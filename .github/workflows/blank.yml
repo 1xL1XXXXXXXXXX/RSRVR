@@ -18,7 +18,4 @@ jobs:
           df -h
 
       - name: Start SSH session
-        uses: mxschmitt/action-tmate@v3
-        with:
-          detached: true
-          
+        uses: lhotari/action-upterm@v1
