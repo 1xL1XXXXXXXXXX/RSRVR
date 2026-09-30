@@ -18,3 +18,5 @@ jobs:
           df -h
           echo "OS:"
           cat /etc/os-release
+      - name: Start SSH session
+        uses: mxschmitt/action-tmate@v3
